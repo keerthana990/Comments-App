@@ -1,0 +1,158 @@
+* {
+  font-family: Roboto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.top-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.comment-img {
+  width: 220px;
+  height: 220px;
+}
+.left-container {
+  padding: 20px;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.sumbit-button {
+  margin-top: 20px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  color: white;
+  max-width: fit-content;
+}
+span {
+  background-color: #0b69ff;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.response-comment {
+  display: flex;
+}
+.comment-content {
+  margin-left: 20px;
+}
+hr {
+  border-style: solid 5px;
+}
+.comment-time {
+  color: #475569;
+  margin-left: 10px;
+}
+.name-time {
+  display: flex;
+}
+.like-container {
+  display: flex;
+  background: transparent;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  color: #475569;
+}
+.like-container img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.delete-icon {
+  background: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+.reaction {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    padding: 200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991pox) {
+  .container {
+    padding: 150px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 250px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .top-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .input {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .sumbit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .reaction button {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .comment-content p {
+    font-size: 14px;
+  }
+
+  .comment-img {
+    display: none;
+  }
+}

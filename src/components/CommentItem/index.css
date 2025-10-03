@@ -1,0 +1,73 @@
+.amber {
+  background-color: #f59e0b;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.blue {
+  background-color: #0b69ff;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.orange {
+  background-color: #f97316;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.emerald {
+  background-color: #10b981;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+}
+
+.teal {
+  background-color: #14b8a6;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+}
+
+.red {
+  background-color: #b91c1c;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: large;
+  color: white;
+  font-weight: bold;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.commented-name {
+  font-size: medium;
+  font-weight: bold;
+}
+hr {
+  border-style: solid 5px;
+}
+ul {
+  list-style: none;
+}
